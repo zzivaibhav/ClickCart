@@ -1,0 +1,321 @@
+{
+  "migIndex": 1,
+  "data": [
+    {
+      "path": "assets/fonts/FenomenSans-Black.ttf",
+      "sha1": "25eb940f5bdb700b85f8fdeede3b8006b0e27f73"
+    },
+    {
+      "path": "assets/fonts/FenomenSans-BlackItalic.ttf",
+      "sha1": "eb798d53390acb8c5dbfe492645b474b12e67737"
+    },
+    {
+      "path": "assets/fonts/FenomenSans-Bold.ttf",
+      "sha1": "c1794bd129232f6d5d7cb6e4d62f90684892d779"
+    },
+    {
+      "path": "assets/fonts/FenomenSans-BoldItalic.ttf",
+      "sha1": "70316b054915ab8d4a1ef94d885ca7e780a9341c"
+    },
+    {
+      "path": "assets/fonts/FenomenSans-Book.ttf",
+      "sha1": "6575406f890e6f20f205715c83b293c3fb565d2b"
+    },
+    {
+      "path": "assets/fonts/FenomenSans-BookItalic.ttf",
+      "sha1": "de644828cfab705395bec89c98851440260c4046"
+    },
+    {
+      "path": "assets/fonts/FenomenSans-CNBlack.ttf",
+      "sha1": "d34833a8c9d4b4964dce7ea8e5984e555d26e7b5"
+    },
+    {
+      "path": "assets/fonts/FenomenSans-CNBlackItalic.ttf",
+      "sha1": "de1bc66bb5522396744e12675e76c50f84dea9a8"
+    },
+    {
+      "path": "assets/fonts/FenomenSans-CNBold.ttf",
+      "sha1": "67eea166b2ad80c21ac49adeb22b95554b8cb162"
+    },
+    {
+      "path": "assets/fonts/FenomenSans-CNBoldItalic.ttf",
+      "sha1": "bb384f3b853484bb3def4809d1efc65c8b56858e"
+    },
+    {
+      "path": "assets/fonts/FenomenSans-CNBook.ttf",
+      "sha1": "fc01214c8e50410b257dbe8fe75f7aa3571272bb"
+    },
+    {
+      "path": "assets/fonts/FenomenSans-CNBookItalic.ttf",
+      "sha1": "28a2e5f35861463edf1666ca70ced2fcaae29343"
+    },
+    {
+      "path": "assets/fonts/FenomenSans-CNHairline.ttf",
+      "sha1": "5835b43b1cc98a740214537c243f618e55e3c480"
+    },
+    {
+      "path": "assets/fonts/FenomenSans-CNHairlineItalic.ttf",
+      "sha1": "d3c44e7e145983519a7e387c22225ec5068e9860"
+    },
+    {
+      "path": "assets/fonts/FenomenSans-CNItalic.ttf",
+      "sha1": "5037b67e4b578db6b849221c90a9f8c766bf387f"
+    },
+    {
+      "path": "assets/fonts/FenomenSans-CNLight.ttf",
+      "sha1": "1f12e64e554559c523001d5867571c94daec421a"
+    },
+    {
+      "path": "assets/fonts/FenomenSans-CNLightItalic.ttf",
+      "sha1": "d3c9422f367dbe3b2e206993a8ecab933c0e2d77"
+    },
+    {
+      "path": "assets/fonts/FenomenSans-CNRegular.ttf",
+      "sha1": "6d0e5e33080867b0cc74e69e06b8afc313475f48"
+    },
+    {
+      "path": "assets/fonts/FenomenSans-CNSemiBold.ttf",
+      "sha1": "bc44a29af738a0004a20a3159a24a832fcc27785"
+    },
+    {
+      "path": "assets/fonts/FenomenSans-CNSemiBoldItalic.ttf",
+      "sha1": "db4711cc81e2621d8c83205101333a63dc234031"
+    },
+    {
+      "path": "assets/fonts/FenomenSans-CNThin.ttf",
+      "sha1": "2e38c6b8c31afcc65738a7e616d1caf4a0cf2516"
+    },
+    {
+      "path": "assets/fonts/FenomenSans-CNThinItalic.ttf",
+      "sha1": "63440f38d54dd02c9627a5b9f423b052af7d49f2"
+    },
+    {
+      "path": "assets/fonts/FenomenSans-Hairline.ttf",
+      "sha1": "0bccb17d62e6d57e5ca141278bd7830391cbd130"
+    },
+    {
+      "path": "assets/fonts/FenomenSans-HairlineItalic.ttf",
+      "sha1": "8d83683bb5197499b7b34f6c8d1bdc2d34e0bc96"
+    },
+    {
+      "path": "assets/fonts/FenomenSans-Italic.ttf",
+      "sha1": "adee0970ddbef2803b3150eee2b1d3674f7dcd11"
+    },
+    {
+      "path": "assets/fonts/FenomenSans-Light.ttf",
+      "sha1": "e41ca1a172a3197ac98aac25b49236d37b95ee99"
+    },
+    {
+      "path": "assets/fonts/FenomenSans-LightItalic.ttf",
+      "sha1": "f55b1887af2071a0e7f1678426e569251cffe247"
+    },
+    {
+      "path": "assets/fonts/FenomenSans-Regular.ttf",
+      "sha1": "53991cc8750c8ae4c9ef5719e233b254e9b86ba7"
+    },
+    {
+      "path": "assets/fonts/FenomenSans-SCNBlack.ttf",
+      "sha1": "2df30b7938f74ddecd4943cf27925b06a7997129"
+    },
+    {
+      "path": "assets/fonts/FenomenSans-SCNBlackItalic.ttf",
+      "sha1": "b18a48fa7fe03fc26681f77cc52c19be3d415811"
+    },
+    {
+      "path": "assets/fonts/FenomenSans-SCNBold.ttf",
+      "sha1": "39db8f439e7881b1575135fb85ca55c9bad7ef8c"
+    },
+    {
+      "path": "assets/fonts/FenomenSans-SCNBoldItalic.ttf",
+      "sha1": "f48165ac88ce6ab70733b612cfe4d0f094eeacc8"
+    },
+    {
+      "path": "assets/fonts/FenomenSans-SCNBook.ttf",
+      "sha1": "5f428309debb00446f4cc589cb80a972e6813267"
+    },
+    {
+      "path": "assets/fonts/FenomenSans-SCNBookItalic.ttf",
+      "sha1": "a99f9b8731009ba2584227734779bb8899855f9b"
+    },
+    {
+      "path": "assets/fonts/FenomenSans-SCNHairline.ttf",
+      "sha1": "889d9bf550ae39f7949e83a587d9091eca2282b3"
+    },
+    {
+      "path": "assets/fonts/FenomenSans-SCNHairlineItalic.ttf",
+      "sha1": "1f85bc789c308451221376831fff7f7834d2499d"
+    },
+    {
+      "path": "assets/fonts/FenomenSans-SCNItalic.ttf",
+      "sha1": "2e757cba496cdee0bf2c4d2b46fd9eca92023f20"
+    },
+    {
+      "path": "assets/fonts/FenomenSans-SCNLight.ttf",
+      "sha1": "f28ac25e5603ae04ef3e42688c89439a722b40d6"
+    },
+    {
+      "path": "assets/fonts/FenomenSans-SCNLightItalic.ttf",
+      "sha1": "d96141063b3545e3d5b9c641d9feab50088558eb"
+    },
+    {
+      "path": "assets/fonts/FenomenSans-SCNRegular.ttf",
+      "sha1": "ebcb5cfe0b5cb75fd8a71993fdf43845f12b4473"
+    },
+    {
+      "path": "assets/fonts/FenomenSans-SCNSemiBold.ttf",
+      "sha1": "5e17b6df29ee4f49965dd59604a83e54c1bc11d6"
+    },
+    {
+      "path": "assets/fonts/FenomenSans-SCNSemiBoldItalic.ttf",
+      "sha1": "47ffb5a0dbff487ef354a1460cc5a3865608e4d0"
+    },
+    {
+      "path": "assets/fonts/FenomenSans-SCNThin.ttf",
+      "sha1": "d08697be36e0ea25621ce2e53095c972d79a57a5"
+    },
+    {
+      "path": "assets/fonts/FenomenSans-SCNThinItalic.ttf",
+      "sha1": "ffa60fcd3e0d5f7dd995475364885474a6610999"
+    },
+    {
+      "path": "assets/fonts/FenomenSans-SemiBold.ttf",
+      "sha1": "46beab891f188ad985929fbc00d3f090f0d5ae01"
+    },
+    {
+      "path": "assets/fonts/FenomenSans-SemiBoldItalic.ttf",
+      "sha1": "f44f5ba46d7abee638ce3dc6683696660a661638"
+    },
+    {
+      "path": "assets/fonts/FenomenSans-Thin.ttf",
+      "sha1": "5905d868950c9543a9954e3724e11749058c7a40"
+    },
+    {
+      "path": "assets/fonts/FenomenSans-ThinItalic.ttf",
+      "sha1": "528f3de0b2c9e78e7ec1780a6f85d9c629000c6c"
+    },
+    {
+      "path": "assets/fonts/FenomenSans-XCNBlack.ttf",
+      "sha1": "a119e8bccdabbd4f1862c039b20965f9fefc63a6"
+    },
+    {
+      "path": "assets/fonts/FenomenSans-XCNBlackItalic.ttf",
+      "sha1": "91fb2f01f132b90360c99af0b66dc1fb8f287f5a"
+    },
+    {
+      "path": "assets/fonts/FenomenSans-XCNBold.ttf",
+      "sha1": "95ea539e4330f95cf172b72296ef8953ee9008e0"
+    },
+    {
+      "path": "assets/fonts/FenomenSans-XCNBoldItalic.ttf",
+      "sha1": "22066fd1c6d9806e12dd3f9a464950aa99c3a8fc"
+    },
+    {
+      "path": "assets/fonts/FenomenSans-XCNBook.ttf",
+      "sha1": "21090b248e498ce907021a10f4eabaea2e02320d"
+    },
+    {
+      "path": "assets/fonts/FenomenSans-XCNBookItalic.ttf",
+      "sha1": "686920a9dcc2b6b0ba67cc1996fba2f9a24abed6"
+    },
+    {
+      "path": "assets/fonts/FenomenSans-XCNHairline.ttf",
+      "sha1": "d5c76f77c116ad318517035f62c2222a2b022132"
+    },
+    {
+      "path": "assets/fonts/FenomenSans-XCNHairlineItalic.ttf",
+      "sha1": "b427ccc6b380266c0d57f3c574c24de40c8309b0"
+    },
+    {
+      "path": "assets/fonts/FenomenSans-XCNItalic.ttf",
+      "sha1": "15f882aadbbc5143327ae82c6bd4f118da25e61d"
+    },
+    {
+      "path": "assets/fonts/FenomenSans-XCNLightItalic.ttf",
+      "sha1": "f9ccc704c8a8a8b83bb803fa576cc56ee24a95fa"
+    },
+    {
+      "path": "assets/fonts/FenomenSans-XCNRegular.ttf",
+      "sha1": "634d424216abb9d0acdadd6ebdf22eebd33150ab"
+    },
+    {
+      "path": "assets/fonts/main.ttf",
+      "sha1": "6ce74ca84e5d6a919d48aa6ea267a56345c13033"
+    },
+    {
+      "path": "assets/fonts/Metropolis-BlackItalic.ttf",
+      "sha1": "756206a340028d7e450ab592b1621202b491df11"
+    },
+    {
+      "path": "assets/fonts/Metropolis-BoldItalic.ttf",
+      "sha1": "c5b31eba56dd2ea953659ebcdc104613ee3ed9d2"
+    },
+    {
+      "path": "assets/fonts/Metropolis-ExtraBold.ttf",
+      "sha1": "d69295da58759dba92c90b8f54959af143465d35"
+    },
+    {
+      "path": "assets/fonts/Metropolis-ExtraBoldItalic.ttf",
+      "sha1": "58dc2758e23bc71cf3bdbcb4c25575fcefd68caa"
+    },
+    {
+      "path": "assets/fonts/Metropolis-ExtraLight.ttf",
+      "sha1": "9e3c166c0c10443f03938f470486c276abc54df3"
+    },
+    {
+      "path": "assets/fonts/Metropolis-ExtraLightItalic.ttf",
+      "sha1": "36820b30ecadd498e0cc7bfc5258f1760f1428c3"
+    },
+    {
+      "path": "assets/fonts/Metropolis-Light.ttf",
+      "sha1": "7760f30302d2a54a869a19ab9cddaa193bc09c4d"
+    },
+    {
+      "path": "assets/fonts/Metropolis-MediumItalic.ttf",
+      "sha1": "b842495dfe1d9cd6828627364ecc6a2ab80f3381"
+    },
+    {
+      "path": "assets/fonts/Metropolis-Regular.ttf",
+      "sha1": "8999465bc0905ac6199657caefc17461526e3bf0"
+    },
+    {
+      "path": "assets/fonts/Metropolis-RegularItalic.ttf",
+      "sha1": "ee521539fcf3465ce6bfaccac6eb6d7f7098b5de"
+    },
+    {
+      "path": "assets/fonts/Metropolis-SemiBold.ttf",
+      "sha1": "b3860b50b97c25112852e2e398058fff08f4af21"
+    },
+    {
+      "path": "assets/fonts/Metropolis-SemiBoldItalic.ttf",
+      "sha1": "ba57b746c11252a5979868f1aeb3385ea190b8e8"
+    },
+    {
+      "path": "assets/fonts/Metropolis-Thin.ttf",
+      "sha1": "1557226a3d899ee577a15774dbd712d18fb95fd9"
+    },
+    {
+      "path": "assets/fonts/nourd_bold.ttf",
+      "sha1": "95840ae317fd825953b3348f3c1e2ef3faa17742"
+    },
+    {
+      "path": "assets/fonts/nourd_heavy.ttf",
+      "sha1": "6e8fa1fac262b1d584ea0470f74c0000b84948db"
+    },
+    {
+      "path": "assets/fonts/nourd_light.ttf",
+      "sha1": "07aa228d702f164c722b93980b1f2fd08320d525"
+    },
+    {
+      "path": "assets/fonts/nourd_medium.ttf",
+      "sha1": "6ce74ca84e5d6a919d48aa6ea267a56345c13033"
+    },
+    {
+      "path": "assets/fonts/nourd_regular.ttf",
+      "sha1": "6da4551b07ca2471a1c6ff50a66ce0dff423b897"
+    },
+    {
+      "path": "assets/fonts/nourd_semi_bold.ttf",
+      "sha1": "31dd4ddcccb8e8f281ac144f494681e181f0cc9d"
+    }
+  ]
+}

@@ -1,0 +1,1009 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 54;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00E356F31AD99517003FC87E /* ClickCartTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* ClickCartTests.m */; };
+		0C80B921A6F3F58F76C31292 /* libPods-ClickCart.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DCACB8F33CDC322A6C60F78 /* libPods-ClickCart.a */; };
+		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
+		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		7699B88040F8A987B510C191 /* libPods-ClickCart-ClickCartTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-ClickCart-ClickCartTests.a */; };
+		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		D9C067447864420C9581E7E4 /* Metropolis-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9BDCBF6D37454EF0B007240E /* Metropolis-Regular.ttf */; };
+		5A2086ADDF464361B99C0526 /* main.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B3D1C48010114F9987036118 /* main.ttf */; };
+		46472DF711B3409DAAEEE2C4 /* Metropolis-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A61988E9934A4E20B7E87D16 /* Metropolis-BlackItalic.ttf */; };
+		3F9B630E858C4F5ABD3DDDF0 /* Metropolis-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5F0B8DAFBBE24ED59C7082B9 /* Metropolis-BoldItalic.ttf */; };
+		316F665F9018499C8D29B284 /* Metropolis-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EF6192421CEF45388420443A /* Metropolis-ExtraBold.ttf */; };
+		41969929616E4D4A8F0535A6 /* Metropolis-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 53D134942EEF47D8A76A388A /* Metropolis-ExtraBoldItalic.ttf */; };
+		BB33B9004E9D49A79254245A /* Metropolis-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E188E8702A584E24A18D44D7 /* Metropolis-ExtraLight.ttf */; };
+		43255468BD7D466E85AAAB45 /* Metropolis-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A7D73D3264F9439C9FB7E4F7 /* Metropolis-ExtraLightItalic.ttf */; };
+		7C4F5BE624B742C3A17C5C8E /* Metropolis-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2FC3E70B907D40D0BA21F43D /* Metropolis-Light.ttf */; };
+		E750EF4E5BBF47F795EB2DB4 /* Metropolis-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 36F81A5C2C304BCB9EBD3AA0 /* Metropolis-MediumItalic.ttf */; };
+		5096D5BD8B944259BBF775CF /* Metropolis-RegularItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 41EE6AED82B3491391779ECB /* Metropolis-RegularItalic.ttf */; };
+		AFB3B971F5004A11AB6CA3A3 /* Metropolis-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 08C01E1F06C449B291B63907 /* Metropolis-SemiBold.ttf */; };
+		430A5FA325704A228F5CB94D /* Metropolis-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2DD96B7256994136BE031100 /* Metropolis-SemiBoldItalic.ttf */; };
+		9D2449F62E2F48BA9532A86D /* Metropolis-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = ABD1259A123346C0AE86D76F /* Metropolis-Thin.ttf */; };
+		49EF6740DD2C4627B7946070 /* FenomenSans-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9EBDA3CC75A8404798B4F345 /* FenomenSans-Black.ttf */; };
+		898BFAF5A23845D198E46465 /* FenomenSans-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D60CB2613E5A4EE59EA06387 /* FenomenSans-BlackItalic.ttf */; };
+		DCE5FEB350B742D595C73FFE /* FenomenSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D2EC3896AD844A26AF2E7A7E /* FenomenSans-Bold.ttf */; };
+		D8D938985A1B43C9AF02EAA7 /* FenomenSans-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7245AEB58D7F4535923F08D9 /* FenomenSans-BoldItalic.ttf */; };
+		4CB68998D3714425878681EC /* FenomenSans-Book.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6C7B4A8D8BE447459D915738 /* FenomenSans-Book.ttf */; };
+		35A20AB360B54B6ABFCBCEE7 /* FenomenSans-BookItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3EC8B83BB91D445A88A4C110 /* FenomenSans-BookItalic.ttf */; };
+		354FDAE349B141759F4689FB /* FenomenSans-CNBlack.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9F66110CA3894C56BB52C1AE /* FenomenSans-CNBlack.ttf */; };
+		98CC94C7072949F180FA3B9D /* FenomenSans-CNBlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B004EEB9B1A648A1B5D9E9B9 /* FenomenSans-CNBlackItalic.ttf */; };
+		C98279135CF1488AAB6B2BBD /* FenomenSans-CNBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C300BDD0E15843CEB499912D /* FenomenSans-CNBold.ttf */; };
+		6AC2696CFC7743749DBC141D /* FenomenSans-CNBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D1F4AD0B7A2A415384EC3344 /* FenomenSans-CNBoldItalic.ttf */; };
+		4EAC8A7DD5D1402EBBBC6E8A /* FenomenSans-CNBook.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F488611F42CD4583B4C2A664 /* FenomenSans-CNBook.ttf */; };
+		57142267EC7743BD8693E412 /* FenomenSans-CNBookItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 50308F7D86E14F88832EE61D /* FenomenSans-CNBookItalic.ttf */; };
+		D86ABB52D854464984444DD7 /* FenomenSans-CNHairline.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C3871D63370A4D8CA4EFE8D9 /* FenomenSans-CNHairline.ttf */; };
+		C037E46479844324BDCC045A /* FenomenSans-CNHairlineItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 25E75F4BDFDB4758AE585A57 /* FenomenSans-CNHairlineItalic.ttf */; };
+		29168DB24276405CB8D30045 /* FenomenSans-CNItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C0A29F1F72C54FD08DD4699E /* FenomenSans-CNItalic.ttf */; };
+		4935A095A2B8412DA7A55F50 /* FenomenSans-CNLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F326D7F701104E2DAE16E83E /* FenomenSans-CNLight.ttf */; };
+		0FD64499414544A7AC2D5A47 /* FenomenSans-CNLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 39BC58D42FD44E58BBE10F50 /* FenomenSans-CNLightItalic.ttf */; };
+		16FB1516AFD04F57B1687915 /* FenomenSans-CNRegular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BF2F2A507F434328A381735A /* FenomenSans-CNRegular.ttf */; };
+		48EA9F90684C4F21A2D7CC58 /* FenomenSans-CNSemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 34543E7379CF48D2B77902DD /* FenomenSans-CNSemiBold.ttf */; };
+		3EB37FF0B44745BF8F28F41A /* FenomenSans-CNSemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 18FC6F396015491FAB796D42 /* FenomenSans-CNSemiBoldItalic.ttf */; };
+		5460B53EF4E641A583333CEA /* FenomenSans-CNThin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7A083A7C8E534B548EF40B54 /* FenomenSans-CNThin.ttf */; };
+		4F5BB3B309044B5DB2F721D7 /* FenomenSans-CNThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CF01353BFE3940DAB7DB674F /* FenomenSans-CNThinItalic.ttf */; };
+		821B17A8C01645D1B3C1B38C /* FenomenSans-Hairline.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DE288B1123504EDE94C56CB0 /* FenomenSans-Hairline.ttf */; };
+		1B30DB3A12224AC6AA71ADCA /* FenomenSans-HairlineItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4FF823BEB1EE4961B2F451AC /* FenomenSans-HairlineItalic.ttf */; };
+		6D752255412E457AABFF27A7 /* FenomenSans-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2FFE01B565794B39B4F12B37 /* FenomenSans-Italic.ttf */; };
+		EFF5D495F8DA4E71B5449820 /* FenomenSans-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5B459BB3927E44F8A512C703 /* FenomenSans-Light.ttf */; };
+		767BFD81E2324CDD97F2E8E0 /* FenomenSans-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 54EF052CF65C44E08F90F26E /* FenomenSans-LightItalic.ttf */; };
+		920F2BB0295448CDA2E82F67 /* FenomenSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E9D27FC2A56747839EFFC087 /* FenomenSans-Regular.ttf */; };
+		D227F4201E564C78B3198907 /* FenomenSans-SCNBlack.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 08BA3CF725AF4DCEBB6D5605 /* FenomenSans-SCNBlack.ttf */; };
+		9982499F53AA4BAC954637B2 /* FenomenSans-SCNBlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 96EEF730966549628ECF115D /* FenomenSans-SCNBlackItalic.ttf */; };
+		308C7F16D1314A56B3444316 /* FenomenSans-SCNBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6A237E354F8644868FAF31CB /* FenomenSans-SCNBold.ttf */; };
+		F81F0924C8FE4D6DA9706C9B /* FenomenSans-SCNBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0EB5997478324FE0BA90D227 /* FenomenSans-SCNBoldItalic.ttf */; };
+		F63C9E1BE35D432FB9C1DE84 /* FenomenSans-SCNBook.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5671170718344D10ACBBBCF7 /* FenomenSans-SCNBook.ttf */; };
+		DB1CCA477D68470E8CDD6ED7 /* FenomenSans-SCNBookItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0714726A0CF541F4A86AA44C /* FenomenSans-SCNBookItalic.ttf */; };
+		7E6373A155E14ED6A39F648C /* FenomenSans-SCNHairline.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5233F6F004E441CE99700C0E /* FenomenSans-SCNHairline.ttf */; };
+		BD8BAC1BA7744F3C9013600E /* FenomenSans-SCNHairlineItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CBC5B55022904CE99F344319 /* FenomenSans-SCNHairlineItalic.ttf */; };
+		B00D2097654942E5AFA58028 /* FenomenSans-SCNItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 07EA97F4C4E942F4906F5EF2 /* FenomenSans-SCNItalic.ttf */; };
+		A626B457238A4FCB88549CF2 /* FenomenSans-SCNLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F30CBB64EAB8461C9C0C4780 /* FenomenSans-SCNLight.ttf */; };
+		D28EB2F980AB4DEB80DEDEAA /* FenomenSans-SCNLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 26AD4A2C59344F38A5315BC5 /* FenomenSans-SCNLightItalic.ttf */; };
+		D569E221C8CF46D5B4BC2053 /* FenomenSans-SCNRegular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B470D6A67D3843DFAC9E26B1 /* FenomenSans-SCNRegular.ttf */; };
+		6FA71BF73A364E30ABF81D7A /* FenomenSans-SCNSemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A10C15BEB730492F96BD6B90 /* FenomenSans-SCNSemiBold.ttf */; };
+		A439D38C670D4464AAB5EF77 /* FenomenSans-SCNSemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 51E64E405D774A78AD1F4DC7 /* FenomenSans-SCNSemiBoldItalic.ttf */; };
+		B7B474E5B57E488A9E0F397B /* FenomenSans-SCNThin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8B24168EC7454961B6CDEA93 /* FenomenSans-SCNThin.ttf */; };
+		E9A9423195D343E4B116A75D /* FenomenSans-SCNThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E5FB2737F5B04237AF7AE4FF /* FenomenSans-SCNThinItalic.ttf */; };
+		23FC2C21B9CE4864953A1E52 /* FenomenSans-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DC15CE14AF144390ADD80187 /* FenomenSans-SemiBold.ttf */; };
+		6BFA547D497E42D8AEB635B2 /* FenomenSans-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A0E105401AD8464AB65291DC /* FenomenSans-SemiBoldItalic.ttf */; };
+		33E4273ADA5A434D9F9CB81C /* FenomenSans-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 606B752C360F44189592309F /* FenomenSans-Thin.ttf */; };
+		D39504AE4B244DF590A4DDCB /* FenomenSans-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7EBFAF97DF2944B69E315E57 /* FenomenSans-ThinItalic.ttf */; };
+		D3CFFC4428BE428DBA4F3B25 /* FenomenSans-XCNBlack.ttf in Resources */ = {isa = PBXBuildFile; fileRef = ED3A9FFC2D3C4CB7B8A901CA /* FenomenSans-XCNBlack.ttf */; };
+		A3FB46F45ADE4088AF97918C /* FenomenSans-XCNBlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BA77BC002DDD449A8A7C2AFA /* FenomenSans-XCNBlackItalic.ttf */; };
+		C3DC88A2A57041F79FFF6B58 /* FenomenSans-XCNBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1DF531D36EED48A3B73FD496 /* FenomenSans-XCNBold.ttf */; };
+		6131FFABB3F4406BA0B1FDC3 /* FenomenSans-XCNBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6D430F12941040A39E478C0E /* FenomenSans-XCNBoldItalic.ttf */; };
+		EDA3B70A4E714FDC9623FADD /* FenomenSans-XCNBook.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BEFB16728CDA4366B68D2469 /* FenomenSans-XCNBook.ttf */; };
+		D0D5F2F31D3D470882EEDBF2 /* FenomenSans-XCNBookItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8732C2C34DE24834BD69AFF2 /* FenomenSans-XCNBookItalic.ttf */; };
+		C59F6363894A4276AFC7D0E6 /* FenomenSans-XCNHairline.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9FDA8750DB0B46C7B75CC83E /* FenomenSans-XCNHairline.ttf */; };
+		93E0436CAA38466BB79A4E53 /* FenomenSans-XCNHairlineItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0112E35CB9D0428B8D510AD2 /* FenomenSans-XCNHairlineItalic.ttf */; };
+		5F56B76956C846F591D4167E /* FenomenSans-XCNItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E3176C7D81824D6EB9011160 /* FenomenSans-XCNItalic.ttf */; };
+		E2CE452D7AAB4A88B725504C /* FenomenSans-XCNLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B72FA791BF264EB9A30212D2 /* FenomenSans-XCNLightItalic.ttf */; };
+		1C70695C89014DF9964187D7 /* FenomenSans-XCNRegular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5A14ED90E28E464B888DE34C /* FenomenSans-XCNRegular.ttf */; };
+		5FD540F9B7CC4E0C9AAE108D /* nourd_bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 53F0B3CD2D2C41B58A82B73E /* nourd_bold.ttf */; };
+		FF8F9E95F1AE449391A6787A /* nourd_heavy.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 39226927E0FA462DA73CA80C /* nourd_heavy.ttf */; };
+		547703B069AB45C1A1562A8F /* nourd_light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 58F2C795B45F4CC995865CB8 /* nourd_light.ttf */; };
+		1AEAC43689044D34AB71C169 /* nourd_medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9D1A08F8B31E4E1BB6155100 /* nourd_medium.ttf */; };
+		08E30E136E5D4F14B544469B /* nourd_regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 62629292EF4A49A1959FD8CB /* nourd_regular.ttf */; };
+		44BDD3D764C449B6B8BF7AA7 /* nourd_semi_bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0ED1185D89B646FE84B740B7 /* nourd_semi_bold.ttf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		00E356F41AD99517003FC87E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
+			remoteInfo = ClickCart;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00E356EE1AD99517003FC87E /* ClickCartTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClickCartTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00E356F21AD99517003FC87E /* ClickCartTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ClickCartTests.m; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* ClickCart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ClickCart.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ClickCart/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AppDelegate.mm; path = ClickCart/AppDelegate.mm; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = ClickCart/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = ClickCart/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = ClickCart/main.m; sourceTree = "<group>"; };
+		19F6CBCC0A4E27FBF8BF4A61 /* libPods-ClickCart-ClickCartTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ClickCart-ClickCartTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B4392A12AC88292D35C810B /* Pods-ClickCart.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ClickCart.debug.xcconfig"; path = "Target Support Files/Pods-ClickCart/Pods-ClickCart.debug.xcconfig"; sourceTree = "<group>"; };
+		5709B34CF0A7D63546082F79 /* Pods-ClickCart.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ClickCart.release.xcconfig"; path = "Target Support Files/Pods-ClickCart/Pods-ClickCart.release.xcconfig"; sourceTree = "<group>"; };
+		5B7EB9410499542E8C5724F5 /* Pods-ClickCart-ClickCartTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ClickCart-ClickCartTests.debug.xcconfig"; path = "Target Support Files/Pods-ClickCart-ClickCartTests/Pods-ClickCart-ClickCartTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5DCACB8F33CDC322A6C60F78 /* libPods-ClickCart.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ClickCart.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = ClickCart/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		89C6BE57DB24E9ADA2F236DE /* Pods-ClickCart-ClickCartTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ClickCart-ClickCartTests.release.xcconfig"; path = "Target Support Files/Pods-ClickCart-ClickCartTests/Pods-ClickCart-ClickCartTests.release.xcconfig"; sourceTree = "<group>"; };
+		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		9BDCBF6D37454EF0B007240E /* Metropolis-Regular.ttf */ = {isa = PBXFileReference; name = "Metropolis-Regular.ttf"; path = "../assets/fonts/Metropolis-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		B3D1C48010114F9987036118 /* main.ttf */ = {isa = PBXFileReference; name = "main.ttf"; path = "../assets/fonts/main.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		A61988E9934A4E20B7E87D16 /* Metropolis-BlackItalic.ttf */ = {isa = PBXFileReference; name = "Metropolis-BlackItalic.ttf"; path = "../assets/fonts/Metropolis-BlackItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		5F0B8DAFBBE24ED59C7082B9 /* Metropolis-BoldItalic.ttf */ = {isa = PBXFileReference; name = "Metropolis-BoldItalic.ttf"; path = "../assets/fonts/Metropolis-BoldItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		EF6192421CEF45388420443A /* Metropolis-ExtraBold.ttf */ = {isa = PBXFileReference; name = "Metropolis-ExtraBold.ttf"; path = "../assets/fonts/Metropolis-ExtraBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		53D134942EEF47D8A76A388A /* Metropolis-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; name = "Metropolis-ExtraBoldItalic.ttf"; path = "../assets/fonts/Metropolis-ExtraBoldItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		E188E8702A584E24A18D44D7 /* Metropolis-ExtraLight.ttf */ = {isa = PBXFileReference; name = "Metropolis-ExtraLight.ttf"; path = "../assets/fonts/Metropolis-ExtraLight.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		A7D73D3264F9439C9FB7E4F7 /* Metropolis-ExtraLightItalic.ttf */ = {isa = PBXFileReference; name = "Metropolis-ExtraLightItalic.ttf"; path = "../assets/fonts/Metropolis-ExtraLightItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		2FC3E70B907D40D0BA21F43D /* Metropolis-Light.ttf */ = {isa = PBXFileReference; name = "Metropolis-Light.ttf"; path = "../assets/fonts/Metropolis-Light.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		36F81A5C2C304BCB9EBD3AA0 /* Metropolis-MediumItalic.ttf */ = {isa = PBXFileReference; name = "Metropolis-MediumItalic.ttf"; path = "../assets/fonts/Metropolis-MediumItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		41EE6AED82B3491391779ECB /* Metropolis-RegularItalic.ttf */ = {isa = PBXFileReference; name = "Metropolis-RegularItalic.ttf"; path = "../assets/fonts/Metropolis-RegularItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		08C01E1F06C449B291B63907 /* Metropolis-SemiBold.ttf */ = {isa = PBXFileReference; name = "Metropolis-SemiBold.ttf"; path = "../assets/fonts/Metropolis-SemiBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		2DD96B7256994136BE031100 /* Metropolis-SemiBoldItalic.ttf */ = {isa = PBXFileReference; name = "Metropolis-SemiBoldItalic.ttf"; path = "../assets/fonts/Metropolis-SemiBoldItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		ABD1259A123346C0AE86D76F /* Metropolis-Thin.ttf */ = {isa = PBXFileReference; name = "Metropolis-Thin.ttf"; path = "../assets/fonts/Metropolis-Thin.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		9EBDA3CC75A8404798B4F345 /* FenomenSans-Black.ttf */ = {isa = PBXFileReference; name = "FenomenSans-Black.ttf"; path = "../assets/fonts/FenomenSans-Black.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		D60CB2613E5A4EE59EA06387 /* FenomenSans-BlackItalic.ttf */ = {isa = PBXFileReference; name = "FenomenSans-BlackItalic.ttf"; path = "../assets/fonts/FenomenSans-BlackItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		D2EC3896AD844A26AF2E7A7E /* FenomenSans-Bold.ttf */ = {isa = PBXFileReference; name = "FenomenSans-Bold.ttf"; path = "../assets/fonts/FenomenSans-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		7245AEB58D7F4535923F08D9 /* FenomenSans-BoldItalic.ttf */ = {isa = PBXFileReference; name = "FenomenSans-BoldItalic.ttf"; path = "../assets/fonts/FenomenSans-BoldItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		6C7B4A8D8BE447459D915738 /* FenomenSans-Book.ttf */ = {isa = PBXFileReference; name = "FenomenSans-Book.ttf"; path = "../assets/fonts/FenomenSans-Book.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		3EC8B83BB91D445A88A4C110 /* FenomenSans-BookItalic.ttf */ = {isa = PBXFileReference; name = "FenomenSans-BookItalic.ttf"; path = "../assets/fonts/FenomenSans-BookItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		9F66110CA3894C56BB52C1AE /* FenomenSans-CNBlack.ttf */ = {isa = PBXFileReference; name = "FenomenSans-CNBlack.ttf"; path = "../assets/fonts/FenomenSans-CNBlack.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		B004EEB9B1A648A1B5D9E9B9 /* FenomenSans-CNBlackItalic.ttf */ = {isa = PBXFileReference; name = "FenomenSans-CNBlackItalic.ttf"; path = "../assets/fonts/FenomenSans-CNBlackItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		C300BDD0E15843CEB499912D /* FenomenSans-CNBold.ttf */ = {isa = PBXFileReference; name = "FenomenSans-CNBold.ttf"; path = "../assets/fonts/FenomenSans-CNBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		D1F4AD0B7A2A415384EC3344 /* FenomenSans-CNBoldItalic.ttf */ = {isa = PBXFileReference; name = "FenomenSans-CNBoldItalic.ttf"; path = "../assets/fonts/FenomenSans-CNBoldItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		F488611F42CD4583B4C2A664 /* FenomenSans-CNBook.ttf */ = {isa = PBXFileReference; name = "FenomenSans-CNBook.ttf"; path = "../assets/fonts/FenomenSans-CNBook.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		50308F7D86E14F88832EE61D /* FenomenSans-CNBookItalic.ttf */ = {isa = PBXFileReference; name = "FenomenSans-CNBookItalic.ttf"; path = "../assets/fonts/FenomenSans-CNBookItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		C3871D63370A4D8CA4EFE8D9 /* FenomenSans-CNHairline.ttf */ = {isa = PBXFileReference; name = "FenomenSans-CNHairline.ttf"; path = "../assets/fonts/FenomenSans-CNHairline.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		25E75F4BDFDB4758AE585A57 /* FenomenSans-CNHairlineItalic.ttf */ = {isa = PBXFileReference; name = "FenomenSans-CNHairlineItalic.ttf"; path = "../assets/fonts/FenomenSans-CNHairlineItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		C0A29F1F72C54FD08DD4699E /* FenomenSans-CNItalic.ttf */ = {isa = PBXFileReference; name = "FenomenSans-CNItalic.ttf"; path = "../assets/fonts/FenomenSans-CNItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		F326D7F701104E2DAE16E83E /* FenomenSans-CNLight.ttf */ = {isa = PBXFileReference; name = "FenomenSans-CNLight.ttf"; path = "../assets/fonts/FenomenSans-CNLight.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		39BC58D42FD44E58BBE10F50 /* FenomenSans-CNLightItalic.ttf */ = {isa = PBXFileReference; name = "FenomenSans-CNLightItalic.ttf"; path = "../assets/fonts/FenomenSans-CNLightItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		BF2F2A507F434328A381735A /* FenomenSans-CNRegular.ttf */ = {isa = PBXFileReference; name = "FenomenSans-CNRegular.ttf"; path = "../assets/fonts/FenomenSans-CNRegular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		34543E7379CF48D2B77902DD /* FenomenSans-CNSemiBold.ttf */ = {isa = PBXFileReference; name = "FenomenSans-CNSemiBold.ttf"; path = "../assets/fonts/FenomenSans-CNSemiBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		18FC6F396015491FAB796D42 /* FenomenSans-CNSemiBoldItalic.ttf */ = {isa = PBXFileReference; name = "FenomenSans-CNSemiBoldItalic.ttf"; path = "../assets/fonts/FenomenSans-CNSemiBoldItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		7A083A7C8E534B548EF40B54 /* FenomenSans-CNThin.ttf */ = {isa = PBXFileReference; name = "FenomenSans-CNThin.ttf"; path = "../assets/fonts/FenomenSans-CNThin.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		CF01353BFE3940DAB7DB674F /* FenomenSans-CNThinItalic.ttf */ = {isa = PBXFileReference; name = "FenomenSans-CNThinItalic.ttf"; path = "../assets/fonts/FenomenSans-CNThinItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		DE288B1123504EDE94C56CB0 /* FenomenSans-Hairline.ttf */ = {isa = PBXFileReference; name = "FenomenSans-Hairline.ttf"; path = "../assets/fonts/FenomenSans-Hairline.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		4FF823BEB1EE4961B2F451AC /* FenomenSans-HairlineItalic.ttf */ = {isa = PBXFileReference; name = "FenomenSans-HairlineItalic.ttf"; path = "../assets/fonts/FenomenSans-HairlineItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		2FFE01B565794B39B4F12B37 /* FenomenSans-Italic.ttf */ = {isa = PBXFileReference; name = "FenomenSans-Italic.ttf"; path = "../assets/fonts/FenomenSans-Italic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		5B459BB3927E44F8A512C703 /* FenomenSans-Light.ttf */ = {isa = PBXFileReference; name = "FenomenSans-Light.ttf"; path = "../assets/fonts/FenomenSans-Light.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		54EF052CF65C44E08F90F26E /* FenomenSans-LightItalic.ttf */ = {isa = PBXFileReference; name = "FenomenSans-LightItalic.ttf"; path = "../assets/fonts/FenomenSans-LightItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		E9D27FC2A56747839EFFC087 /* FenomenSans-Regular.ttf */ = {isa = PBXFileReference; name = "FenomenSans-Regular.ttf"; path = "../assets/fonts/FenomenSans-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		08BA3CF725AF4DCEBB6D5605 /* FenomenSans-SCNBlack.ttf */ = {isa = PBXFileReference; name = "FenomenSans-SCNBlack.ttf"; path = "../assets/fonts/FenomenSans-SCNBlack.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		96EEF730966549628ECF115D /* FenomenSans-SCNBlackItalic.ttf */ = {isa = PBXFileReference; name = "FenomenSans-SCNBlackItalic.ttf"; path = "../assets/fonts/FenomenSans-SCNBlackItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		6A237E354F8644868FAF31CB /* FenomenSans-SCNBold.ttf */ = {isa = PBXFileReference; name = "FenomenSans-SCNBold.ttf"; path = "../assets/fonts/FenomenSans-SCNBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		0EB5997478324FE0BA90D227 /* FenomenSans-SCNBoldItalic.ttf */ = {isa = PBXFileReference; name = "FenomenSans-SCNBoldItalic.ttf"; path = "../assets/fonts/FenomenSans-SCNBoldItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		5671170718344D10ACBBBCF7 /* FenomenSans-SCNBook.ttf */ = {isa = PBXFileReference; name = "FenomenSans-SCNBook.ttf"; path = "../assets/fonts/FenomenSans-SCNBook.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		0714726A0CF541F4A86AA44C /* FenomenSans-SCNBookItalic.ttf */ = {isa = PBXFileReference; name = "FenomenSans-SCNBookItalic.ttf"; path = "../assets/fonts/FenomenSans-SCNBookItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		5233F6F004E441CE99700C0E /* FenomenSans-SCNHairline.ttf */ = {isa = PBXFileReference; name = "FenomenSans-SCNHairline.ttf"; path = "../assets/fonts/FenomenSans-SCNHairline.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		CBC5B55022904CE99F344319 /* FenomenSans-SCNHairlineItalic.ttf */ = {isa = PBXFileReference; name = "FenomenSans-SCNHairlineItalic.ttf"; path = "../assets/fonts/FenomenSans-SCNHairlineItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		07EA97F4C4E942F4906F5EF2 /* FenomenSans-SCNItalic.ttf */ = {isa = PBXFileReference; name = "FenomenSans-SCNItalic.ttf"; path = "../assets/fonts/FenomenSans-SCNItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		F30CBB64EAB8461C9C0C4780 /* FenomenSans-SCNLight.ttf */ = {isa = PBXFileReference; name = "FenomenSans-SCNLight.ttf"; path = "../assets/fonts/FenomenSans-SCNLight.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		26AD4A2C59344F38A5315BC5 /* FenomenSans-SCNLightItalic.ttf */ = {isa = PBXFileReference; name = "FenomenSans-SCNLightItalic.ttf"; path = "../assets/fonts/FenomenSans-SCNLightItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		B470D6A67D3843DFAC9E26B1 /* FenomenSans-SCNRegular.ttf */ = {isa = PBXFileReference; name = "FenomenSans-SCNRegular.ttf"; path = "../assets/fonts/FenomenSans-SCNRegular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		A10C15BEB730492F96BD6B90 /* FenomenSans-SCNSemiBold.ttf */ = {isa = PBXFileReference; name = "FenomenSans-SCNSemiBold.ttf"; path = "../assets/fonts/FenomenSans-SCNSemiBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		51E64E405D774A78AD1F4DC7 /* FenomenSans-SCNSemiBoldItalic.ttf */ = {isa = PBXFileReference; name = "FenomenSans-SCNSemiBoldItalic.ttf"; path = "../assets/fonts/FenomenSans-SCNSemiBoldItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		8B24168EC7454961B6CDEA93 /* FenomenSans-SCNThin.ttf */ = {isa = PBXFileReference; name = "FenomenSans-SCNThin.ttf"; path = "../assets/fonts/FenomenSans-SCNThin.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		E5FB2737F5B04237AF7AE4FF /* FenomenSans-SCNThinItalic.ttf */ = {isa = PBXFileReference; name = "FenomenSans-SCNThinItalic.ttf"; path = "../assets/fonts/FenomenSans-SCNThinItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		DC15CE14AF144390ADD80187 /* FenomenSans-SemiBold.ttf */ = {isa = PBXFileReference; name = "FenomenSans-SemiBold.ttf"; path = "../assets/fonts/FenomenSans-SemiBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		A0E105401AD8464AB65291DC /* FenomenSans-SemiBoldItalic.ttf */ = {isa = PBXFileReference; name = "FenomenSans-SemiBoldItalic.ttf"; path = "../assets/fonts/FenomenSans-SemiBoldItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		606B752C360F44189592309F /* FenomenSans-Thin.ttf */ = {isa = PBXFileReference; name = "FenomenSans-Thin.ttf"; path = "../assets/fonts/FenomenSans-Thin.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		7EBFAF97DF2944B69E315E57 /* FenomenSans-ThinItalic.ttf */ = {isa = PBXFileReference; name = "FenomenSans-ThinItalic.ttf"; path = "../assets/fonts/FenomenSans-ThinItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		ED3A9FFC2D3C4CB7B8A901CA /* FenomenSans-XCNBlack.ttf */ = {isa = PBXFileReference; name = "FenomenSans-XCNBlack.ttf"; path = "../assets/fonts/FenomenSans-XCNBlack.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		BA77BC002DDD449A8A7C2AFA /* FenomenSans-XCNBlackItalic.ttf */ = {isa = PBXFileReference; name = "FenomenSans-XCNBlackItalic.ttf"; path = "../assets/fonts/FenomenSans-XCNBlackItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		1DF531D36EED48A3B73FD496 /* FenomenSans-XCNBold.ttf */ = {isa = PBXFileReference; name = "FenomenSans-XCNBold.ttf"; path = "../assets/fonts/FenomenSans-XCNBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		6D430F12941040A39E478C0E /* FenomenSans-XCNBoldItalic.ttf */ = {isa = PBXFileReference; name = "FenomenSans-XCNBoldItalic.ttf"; path = "../assets/fonts/FenomenSans-XCNBoldItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		BEFB16728CDA4366B68D2469 /* FenomenSans-XCNBook.ttf */ = {isa = PBXFileReference; name = "FenomenSans-XCNBook.ttf"; path = "../assets/fonts/FenomenSans-XCNBook.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		8732C2C34DE24834BD69AFF2 /* FenomenSans-XCNBookItalic.ttf */ = {isa = PBXFileReference; name = "FenomenSans-XCNBookItalic.ttf"; path = "../assets/fonts/FenomenSans-XCNBookItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		9FDA8750DB0B46C7B75CC83E /* FenomenSans-XCNHairline.ttf */ = {isa = PBXFileReference; name = "FenomenSans-XCNHairline.ttf"; path = "../assets/fonts/FenomenSans-XCNHairline.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		0112E35CB9D0428B8D510AD2 /* FenomenSans-XCNHairlineItalic.ttf */ = {isa = PBXFileReference; name = "FenomenSans-XCNHairlineItalic.ttf"; path = "../assets/fonts/FenomenSans-XCNHairlineItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		E3176C7D81824D6EB9011160 /* FenomenSans-XCNItalic.ttf */ = {isa = PBXFileReference; name = "FenomenSans-XCNItalic.ttf"; path = "../assets/fonts/FenomenSans-XCNItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		B72FA791BF264EB9A30212D2 /* FenomenSans-XCNLightItalic.ttf */ = {isa = PBXFileReference; name = "FenomenSans-XCNLightItalic.ttf"; path = "../assets/fonts/FenomenSans-XCNLightItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		5A14ED90E28E464B888DE34C /* FenomenSans-XCNRegular.ttf */ = {isa = PBXFileReference; name = "FenomenSans-XCNRegular.ttf"; path = "../assets/fonts/FenomenSans-XCNRegular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		53F0B3CD2D2C41B58A82B73E /* nourd_bold.ttf */ = {isa = PBXFileReference; name = "nourd_bold.ttf"; path = "../assets/fonts/nourd_bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		39226927E0FA462DA73CA80C /* nourd_heavy.ttf */ = {isa = PBXFileReference; name = "nourd_heavy.ttf"; path = "../assets/fonts/nourd_heavy.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		58F2C795B45F4CC995865CB8 /* nourd_light.ttf */ = {isa = PBXFileReference; name = "nourd_light.ttf"; path = "../assets/fonts/nourd_light.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		9D1A08F8B31E4E1BB6155100 /* nourd_medium.ttf */ = {isa = PBXFileReference; name = "nourd_medium.ttf"; path = "../assets/fonts/nourd_medium.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		62629292EF4A49A1959FD8CB /* nourd_regular.ttf */ = {isa = PBXFileReference; name = "nourd_regular.ttf"; path = "../assets/fonts/nourd_regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		0ED1185D89B646FE84B740B7 /* nourd_semi_bold.ttf */ = {isa = PBXFileReference; name = "nourd_semi_bold.ttf"; path = "../assets/fonts/nourd_semi_bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		00E356EB1AD99517003FC87E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7699B88040F8A987B510C191 /* libPods-ClickCart-ClickCartTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F8C1A680F5B00A75B9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C80B921A6F3F58F76C31292 /* libPods-ClickCart.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00E356EF1AD99517003FC87E /* ClickCartTests */ = {
+			isa = PBXGroup;
+			children = (
+				00E356F21AD99517003FC87E /* ClickCartTests.m */,
+				00E356F01AD99517003FC87E /* Supporting Files */,
+			);
+			path = ClickCartTests;
+			sourceTree = "<group>";
+		};
+		00E356F01AD99517003FC87E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				00E356F11AD99517003FC87E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		13B07FAE1A68108700A75B9A /* ClickCart */ = {
+			isa = PBXGroup;
+			children = (
+				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
+				13B07FB01A68108700A75B9A /* AppDelegate.mm */,
+				13B07FB51A68108700A75B9A /* Images.xcassets */,
+				13B07FB61A68108700A75B9A /* Info.plist */,
+				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
+				13B07FB71A68108700A75B9A /* main.m */,
+			);
+			name = ClickCart;
+			sourceTree = "<group>";
+		};
+		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
+				5DCACB8F33CDC322A6C60F78 /* libPods-ClickCart.a */,
+				19F6CBCC0A4E27FBF8BF4A61 /* libPods-ClickCart-ClickCartTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
+		83CBB9F61A601CBA00E9B192 = {
+			isa = PBXGroup;
+			children = (
+				13B07FAE1A68108700A75B9A /* ClickCart */,
+				832341AE1AAA6A7D00B99B32 /* Libraries */,
+				00E356EF1AD99517003FC87E /* ClickCartTests */,
+				83CBBA001A601CBA00E9B192 /* Products */,
+				2D16E6871FA4F8E400B85C8A /* Frameworks */,
+				BBD78D7AC51CEA395F1C20DB /* Pods */,
+				4B7B61761E2A4DE09428CF49 /* Resources */,
+			);
+			indentWidth = 2;
+			sourceTree = "<group>";
+			tabWidth = 2;
+			usesTabs = 0;
+		};
+		83CBBA001A601CBA00E9B192 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				13B07F961A680F5B00A75B9A /* ClickCart.app */,
+				00E356EE1AD99517003FC87E /* ClickCartTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BBD78D7AC51CEA395F1C20DB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3B4392A12AC88292D35C810B /* Pods-ClickCart.debug.xcconfig */,
+				5709B34CF0A7D63546082F79 /* Pods-ClickCart.release.xcconfig */,
+				5B7EB9410499542E8C5724F5 /* Pods-ClickCart-ClickCartTests.debug.xcconfig */,
+				89C6BE57DB24E9ADA2F236DE /* Pods-ClickCart-ClickCartTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		4B7B61761E2A4DE09428CF49 /* Resources */ = {
+			isa = "PBXGroup";
+			children = (
+				9BDCBF6D37454EF0B007240E /* Metropolis-Regular.ttf */,
+				B3D1C48010114F9987036118 /* main.ttf */,
+				A61988E9934A4E20B7E87D16 /* Metropolis-BlackItalic.ttf */,
+				5F0B8DAFBBE24ED59C7082B9 /* Metropolis-BoldItalic.ttf */,
+				EF6192421CEF45388420443A /* Metropolis-ExtraBold.ttf */,
+				53D134942EEF47D8A76A388A /* Metropolis-ExtraBoldItalic.ttf */,
+				E188E8702A584E24A18D44D7 /* Metropolis-ExtraLight.ttf */,
+				A7D73D3264F9439C9FB7E4F7 /* Metropolis-ExtraLightItalic.ttf */,
+				2FC3E70B907D40D0BA21F43D /* Metropolis-Light.ttf */,
+				36F81A5C2C304BCB9EBD3AA0 /* Metropolis-MediumItalic.ttf */,
+				41EE6AED82B3491391779ECB /* Metropolis-RegularItalic.ttf */,
+				08C01E1F06C449B291B63907 /* Metropolis-SemiBold.ttf */,
+				2DD96B7256994136BE031100 /* Metropolis-SemiBoldItalic.ttf */,
+				ABD1259A123346C0AE86D76F /* Metropolis-Thin.ttf */,
+				9EBDA3CC75A8404798B4F345 /* FenomenSans-Black.ttf */,
+				D60CB2613E5A4EE59EA06387 /* FenomenSans-BlackItalic.ttf */,
+				D2EC3896AD844A26AF2E7A7E /* FenomenSans-Bold.ttf */,
+				7245AEB58D7F4535923F08D9 /* FenomenSans-BoldItalic.ttf */,
+				6C7B4A8D8BE447459D915738 /* FenomenSans-Book.ttf */,
+				3EC8B83BB91D445A88A4C110 /* FenomenSans-BookItalic.ttf */,
+				9F66110CA3894C56BB52C1AE /* FenomenSans-CNBlack.ttf */,
+				B004EEB9B1A648A1B5D9E9B9 /* FenomenSans-CNBlackItalic.ttf */,
+				C300BDD0E15843CEB499912D /* FenomenSans-CNBold.ttf */,
+				D1F4AD0B7A2A415384EC3344 /* FenomenSans-CNBoldItalic.ttf */,
+				F488611F42CD4583B4C2A664 /* FenomenSans-CNBook.ttf */,
+				50308F7D86E14F88832EE61D /* FenomenSans-CNBookItalic.ttf */,
+				C3871D63370A4D8CA4EFE8D9 /* FenomenSans-CNHairline.ttf */,
+				25E75F4BDFDB4758AE585A57 /* FenomenSans-CNHairlineItalic.ttf */,
+				C0A29F1F72C54FD08DD4699E /* FenomenSans-CNItalic.ttf */,
+				F326D7F701104E2DAE16E83E /* FenomenSans-CNLight.ttf */,
+				39BC58D42FD44E58BBE10F50 /* FenomenSans-CNLightItalic.ttf */,
+				BF2F2A507F434328A381735A /* FenomenSans-CNRegular.ttf */,
+				34543E7379CF48D2B77902DD /* FenomenSans-CNSemiBold.ttf */,
+				18FC6F396015491FAB796D42 /* FenomenSans-CNSemiBoldItalic.ttf */,
+				7A083A7C8E534B548EF40B54 /* FenomenSans-CNThin.ttf */,
+				CF01353BFE3940DAB7DB674F /* FenomenSans-CNThinItalic.ttf */,
+				DE288B1123504EDE94C56CB0 /* FenomenSans-Hairline.ttf */,
+				4FF823BEB1EE4961B2F451AC /* FenomenSans-HairlineItalic.ttf */,
+				2FFE01B565794B39B4F12B37 /* FenomenSans-Italic.ttf */,
+				5B459BB3927E44F8A512C703 /* FenomenSans-Light.ttf */,
+				54EF052CF65C44E08F90F26E /* FenomenSans-LightItalic.ttf */,
+				E9D27FC2A56747839EFFC087 /* FenomenSans-Regular.ttf */,
+				08BA3CF725AF4DCEBB6D5605 /* FenomenSans-SCNBlack.ttf */,
+				96EEF730966549628ECF115D /* FenomenSans-SCNBlackItalic.ttf */,
+				6A237E354F8644868FAF31CB /* FenomenSans-SCNBold.ttf */,
+				0EB5997478324FE0BA90D227 /* FenomenSans-SCNBoldItalic.ttf */,
+				5671170718344D10ACBBBCF7 /* FenomenSans-SCNBook.ttf */,
+				0714726A0CF541F4A86AA44C /* FenomenSans-SCNBookItalic.ttf */,
+				5233F6F004E441CE99700C0E /* FenomenSans-SCNHairline.ttf */,
+				CBC5B55022904CE99F344319 /* FenomenSans-SCNHairlineItalic.ttf */,
+				07EA97F4C4E942F4906F5EF2 /* FenomenSans-SCNItalic.ttf */,
+				F30CBB64EAB8461C9C0C4780 /* FenomenSans-SCNLight.ttf */,
+				26AD4A2C59344F38A5315BC5 /* FenomenSans-SCNLightItalic.ttf */,
+				B470D6A67D3843DFAC9E26B1 /* FenomenSans-SCNRegular.ttf */,
+				A10C15BEB730492F96BD6B90 /* FenomenSans-SCNSemiBold.ttf */,
+				51E64E405D774A78AD1F4DC7 /* FenomenSans-SCNSemiBoldItalic.ttf */,
+				8B24168EC7454961B6CDEA93 /* FenomenSans-SCNThin.ttf */,
+				E5FB2737F5B04237AF7AE4FF /* FenomenSans-SCNThinItalic.ttf */,
+				DC15CE14AF144390ADD80187 /* FenomenSans-SemiBold.ttf */,
+				A0E105401AD8464AB65291DC /* FenomenSans-SemiBoldItalic.ttf */,
+				606B752C360F44189592309F /* FenomenSans-Thin.ttf */,
+				7EBFAF97DF2944B69E315E57 /* FenomenSans-ThinItalic.ttf */,
+				ED3A9FFC2D3C4CB7B8A901CA /* FenomenSans-XCNBlack.ttf */,
+				BA77BC002DDD449A8A7C2AFA /* FenomenSans-XCNBlackItalic.ttf */,
+				1DF531D36EED48A3B73FD496 /* FenomenSans-XCNBold.ttf */,
+				6D430F12941040A39E478C0E /* FenomenSans-XCNBoldItalic.ttf */,
+				BEFB16728CDA4366B68D2469 /* FenomenSans-XCNBook.ttf */,
+				8732C2C34DE24834BD69AFF2 /* FenomenSans-XCNBookItalic.ttf */,
+				9FDA8750DB0B46C7B75CC83E /* FenomenSans-XCNHairline.ttf */,
+				0112E35CB9D0428B8D510AD2 /* FenomenSans-XCNHairlineItalic.ttf */,
+				E3176C7D81824D6EB9011160 /* FenomenSans-XCNItalic.ttf */,
+				B72FA791BF264EB9A30212D2 /* FenomenSans-XCNLightItalic.ttf */,
+				5A14ED90E28E464B888DE34C /* FenomenSans-XCNRegular.ttf */,
+				53F0B3CD2D2C41B58A82B73E /* nourd_bold.ttf */,
+				39226927E0FA462DA73CA80C /* nourd_heavy.ttf */,
+				58F2C795B45F4CC995865CB8 /* nourd_light.ttf */,
+				9D1A08F8B31E4E1BB6155100 /* nourd_medium.ttf */,
+				62629292EF4A49A1959FD8CB /* nourd_regular.ttf */,
+				0ED1185D89B646FE84B740B7 /* nourd_semi_bold.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+			path = "";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		00E356ED1AD99517003FC87E /* ClickCartTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "ClickCartTests" */;
+			buildPhases = (
+				A55EABD7B0C7F3A422A6CC61 /* [CP] Check Pods Manifest.lock */,
+				00E356EA1AD99517003FC87E /* Sources */,
+				00E356EB1AD99517003FC87E /* Frameworks */,
+				00E356EC1AD99517003FC87E /* Resources */,
+				C59DA0FBD6956966B86A3779 /* [CP] Embed Pods Frameworks */,
+				F6A41C54EA430FDDC6A6ED99 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				00E356F51AD99517003FC87E /* PBXTargetDependency */,
+			);
+			name = ClickCartTests;
+			productName = ClickCartTests;
+			productReference = 00E356EE1AD99517003FC87E /* ClickCartTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		13B07F861A680F5B00A75B9A /* ClickCart */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "ClickCart" */;
+			buildPhases = (
+				C38B50BA6285516D6DCD4F65 /* [CP] Check Pods Manifest.lock */,
+				13B07F871A680F5B00A75B9A /* Sources */,
+				13B07F8C1A680F5B00A75B9A /* Frameworks */,
+				13B07F8E1A680F5B00A75B9A /* Resources */,
+				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
+				00EEFC60759A1932668264C0 /* [CP] Embed Pods Frameworks */,
+				E235C05ADACE081382539298 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ClickCart;
+			productName = ClickCart;
+			productReference = 13B07F961A680F5B00A75B9A /* ClickCart.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		83CBB9F71A601CBA00E9B192 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1210;
+				TargetAttributes = {
+					00E356ED1AD99517003FC87E = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 13B07F861A680F5B00A75B9A;
+					};
+					13B07F861A680F5B00A75B9A = {
+						LastSwiftMigration = 1120;
+					};
+				};
+			};
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "ClickCart" */;
+			compatibilityVersion = "Xcode 12.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 83CBB9F61A601CBA00E9B192;
+			productRefGroup = 83CBBA001A601CBA00E9B192 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				13B07F861A680F5B00A75B9A /* ClickCart */,
+				00E356ED1AD99517003FC87E /* ClickCartTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		00E356EC1AD99517003FC87E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F8E1A680F5B00A75B9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
+				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				D9C067447864420C9581E7E4 /* Metropolis-Regular.ttf in Resources */,
+				5A2086ADDF464361B99C0526 /* main.ttf in Resources */,
+				46472DF711B3409DAAEEE2C4 /* Metropolis-BlackItalic.ttf in Resources */,
+				3F9B630E858C4F5ABD3DDDF0 /* Metropolis-BoldItalic.ttf in Resources */,
+				316F665F9018499C8D29B284 /* Metropolis-ExtraBold.ttf in Resources */,
+				41969929616E4D4A8F0535A6 /* Metropolis-ExtraBoldItalic.ttf in Resources */,
+				BB33B9004E9D49A79254245A /* Metropolis-ExtraLight.ttf in Resources */,
+				43255468BD7D466E85AAAB45 /* Metropolis-ExtraLightItalic.ttf in Resources */,
+				7C4F5BE624B742C3A17C5C8E /* Metropolis-Light.ttf in Resources */,
+				E750EF4E5BBF47F795EB2DB4 /* Metropolis-MediumItalic.ttf in Resources */,
+				5096D5BD8B944259BBF775CF /* Metropolis-RegularItalic.ttf in Resources */,
+				AFB3B971F5004A11AB6CA3A3 /* Metropolis-SemiBold.ttf in Resources */,
+				430A5FA325704A228F5CB94D /* Metropolis-SemiBoldItalic.ttf in Resources */,
+				9D2449F62E2F48BA9532A86D /* Metropolis-Thin.ttf in Resources */,
+				49EF6740DD2C4627B7946070 /* FenomenSans-Black.ttf in Resources */,
+				898BFAF5A23845D198E46465 /* FenomenSans-BlackItalic.ttf in Resources */,
+				DCE5FEB350B742D595C73FFE /* FenomenSans-Bold.ttf in Resources */,
+				D8D938985A1B43C9AF02EAA7 /* FenomenSans-BoldItalic.ttf in Resources */,
+				4CB68998D3714425878681EC /* FenomenSans-Book.ttf in Resources */,
+				35A20AB360B54B6ABFCBCEE7 /* FenomenSans-BookItalic.ttf in Resources */,
+				354FDAE349B141759F4689FB /* FenomenSans-CNBlack.ttf in Resources */,
+				98CC94C7072949F180FA3B9D /* FenomenSans-CNBlackItalic.ttf in Resources */,
+				C98279135CF1488AAB6B2BBD /* FenomenSans-CNBold.ttf in Resources */,
+				6AC2696CFC7743749DBC141D /* FenomenSans-CNBoldItalic.ttf in Resources */,
+				4EAC8A7DD5D1402EBBBC6E8A /* FenomenSans-CNBook.ttf in Resources */,
+				57142267EC7743BD8693E412 /* FenomenSans-CNBookItalic.ttf in Resources */,
+				D86ABB52D854464984444DD7 /* FenomenSans-CNHairline.ttf in Resources */,
+				C037E46479844324BDCC045A /* FenomenSans-CNHairlineItalic.ttf in Resources */,
+				29168DB24276405CB8D30045 /* FenomenSans-CNItalic.ttf in Resources */,
+				4935A095A2B8412DA7A55F50 /* FenomenSans-CNLight.ttf in Resources */,
+				0FD64499414544A7AC2D5A47 /* FenomenSans-CNLightItalic.ttf in Resources */,
+				16FB1516AFD04F57B1687915 /* FenomenSans-CNRegular.ttf in Resources */,
+				48EA9F90684C4F21A2D7CC58 /* FenomenSans-CNSemiBold.ttf in Resources */,
+				3EB37FF0B44745BF8F28F41A /* FenomenSans-CNSemiBoldItalic.ttf in Resources */,
+				5460B53EF4E641A583333CEA /* FenomenSans-CNThin.ttf in Resources */,
+				4F5BB3B309044B5DB2F721D7 /* FenomenSans-CNThinItalic.ttf in Resources */,
+				821B17A8C01645D1B3C1B38C /* FenomenSans-Hairline.ttf in Resources */,
+				1B30DB3A12224AC6AA71ADCA /* FenomenSans-HairlineItalic.ttf in Resources */,
+				6D752255412E457AABFF27A7 /* FenomenSans-Italic.ttf in Resources */,
+				EFF5D495F8DA4E71B5449820 /* FenomenSans-Light.ttf in Resources */,
+				767BFD81E2324CDD97F2E8E0 /* FenomenSans-LightItalic.ttf in Resources */,
+				920F2BB0295448CDA2E82F67 /* FenomenSans-Regular.ttf in Resources */,
+				D227F4201E564C78B3198907 /* FenomenSans-SCNBlack.ttf in Resources */,
+				9982499F53AA4BAC954637B2 /* FenomenSans-SCNBlackItalic.ttf in Resources */,
+				308C7F16D1314A56B3444316 /* FenomenSans-SCNBold.ttf in Resources */,
+				F81F0924C8FE4D6DA9706C9B /* FenomenSans-SCNBoldItalic.ttf in Resources */,
+				F63C9E1BE35D432FB9C1DE84 /* FenomenSans-SCNBook.ttf in Resources */,
+				DB1CCA477D68470E8CDD6ED7 /* FenomenSans-SCNBookItalic.ttf in Resources */,
+				7E6373A155E14ED6A39F648C /* FenomenSans-SCNHairline.ttf in Resources */,
+				BD8BAC1BA7744F3C9013600E /* FenomenSans-SCNHairlineItalic.ttf in Resources */,
+				B00D2097654942E5AFA58028 /* FenomenSans-SCNItalic.ttf in Resources */,
+				A626B457238A4FCB88549CF2 /* FenomenSans-SCNLight.ttf in Resources */,
+				D28EB2F980AB4DEB80DEDEAA /* FenomenSans-SCNLightItalic.ttf in Resources */,
+				D569E221C8CF46D5B4BC2053 /* FenomenSans-SCNRegular.ttf in Resources */,
+				6FA71BF73A364E30ABF81D7A /* FenomenSans-SCNSemiBold.ttf in Resources */,
+				A439D38C670D4464AAB5EF77 /* FenomenSans-SCNSemiBoldItalic.ttf in Resources */,
+				B7B474E5B57E488A9E0F397B /* FenomenSans-SCNThin.ttf in Resources */,
+				E9A9423195D343E4B116A75D /* FenomenSans-SCNThinItalic.ttf in Resources */,
+				23FC2C21B9CE4864953A1E52 /* FenomenSans-SemiBold.ttf in Resources */,
+				6BFA547D497E42D8AEB635B2 /* FenomenSans-SemiBoldItalic.ttf in Resources */,
+				33E4273ADA5A434D9F9CB81C /* FenomenSans-Thin.ttf in Resources */,
+				D39504AE4B244DF590A4DDCB /* FenomenSans-ThinItalic.ttf in Resources */,
+				D3CFFC4428BE428DBA4F3B25 /* FenomenSans-XCNBlack.ttf in Resources */,
+				A3FB46F45ADE4088AF97918C /* FenomenSans-XCNBlackItalic.ttf in Resources */,
+				C3DC88A2A57041F79FFF6B58 /* FenomenSans-XCNBold.ttf in Resources */,
+				6131FFABB3F4406BA0B1FDC3 /* FenomenSans-XCNBoldItalic.ttf in Resources */,
+				EDA3B70A4E714FDC9623FADD /* FenomenSans-XCNBook.ttf in Resources */,
+				D0D5F2F31D3D470882EEDBF2 /* FenomenSans-XCNBookItalic.ttf in Resources */,
+				C59F6363894A4276AFC7D0E6 /* FenomenSans-XCNHairline.ttf in Resources */,
+				93E0436CAA38466BB79A4E53 /* FenomenSans-XCNHairlineItalic.ttf in Resources */,
+				5F56B76956C846F591D4167E /* FenomenSans-XCNItalic.ttf in Resources */,
+				E2CE452D7AAB4A88B725504C /* FenomenSans-XCNLightItalic.ttf in Resources */,
+				1C70695C89014DF9964187D7 /* FenomenSans-XCNRegular.ttf in Resources */,
+				5FD540F9B7CC4E0C9AAE108D /* nourd_bold.ttf in Resources */,
+				FF8F9E95F1AE449391A6787A /* nourd_heavy.ttf in Resources */,
+				547703B069AB45C1A1562A8F /* nourd_light.ttf in Resources */,
+				1AEAC43689044D34AB71C169 /* nourd_medium.ttf in Resources */,
+				08E30E136E5D4F14B544469B /* nourd_regular.ttf in Resources */,
+				44BDD3D764C449B6B8BF7AA7 /* nourd_semi_bold.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/.xcode.env.local",
+				"$(SRCROOT)/.xcode.env",
+			);
+			name = "Bundle React Native code and images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\n\nWITH_ENVIRONMENT=\"../node_modules/react-native/scripts/xcode/with-environment.sh\"\nREACT_NATIVE_XCODE=\"../node_modules/react-native/scripts/react-native-xcode.sh\"\n\n/bin/sh -c \"$WITH_ENVIRONMENT $REACT_NATIVE_XCODE\"\n";
+		};
+		00EEFC60759A1932668264C0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ClickCart/Pods-ClickCart-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ClickCart/Pods-ClickCart-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ClickCart/Pods-ClickCart-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A55EABD7B0C7F3A422A6CC61 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ClickCart-ClickCartTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C38B50BA6285516D6DCD4F65 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ClickCart-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C59DA0FBD6956966B86A3779 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ClickCart-ClickCartTests/Pods-ClickCart-ClickCartTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ClickCart-ClickCartTests/Pods-ClickCart-ClickCartTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ClickCart-ClickCartTests/Pods-ClickCart-ClickCartTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E235C05ADACE081382539298 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ClickCart/Pods-ClickCart-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ClickCart/Pods-ClickCart-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ClickCart/Pods-ClickCart-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F6A41C54EA430FDDC6A6ED99 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ClickCart-ClickCartTests/Pods-ClickCart-ClickCartTests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ClickCart-ClickCartTests/Pods-ClickCart-ClickCartTests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ClickCart-ClickCartTests/Pods-ClickCart-ClickCartTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		00E356EA1AD99517003FC87E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00E356F31AD99517003FC87E /* ClickCartTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F871A680F5B00A75B9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */,
+				13B07FC11A68108700A75B9A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		00E356F51AD99517003FC87E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 13B07F861A680F5B00A75B9A /* ClickCart */;
+			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		00E356F61AD99517003FC87E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B7EB9410499542E8C5724F5 /* Pods-ClickCart-ClickCartTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ClickCartTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ClickCart.app/ClickCart";
+			};
+			name = Debug;
+		};
+		00E356F71AD99517003FC87E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 89C6BE57DB24E9ADA2F236DE /* Pods-ClickCart-ClickCartTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COPY_PHASE_STRIP = NO;
+				INFOPLIST_FILE = ClickCartTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ClickCart.app/ClickCart";
+			};
+			name = Release;
+		};
+		13B07F941A680F5B00A75B9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B4392A12AC88292D35C810B /* Pods-ClickCart.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = ClickCart/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = ClickCart;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		13B07F951A680F5B00A75B9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5709B34CF0A7D63546082F79 /* Pods-ClickCart.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_FILE = ClickCart/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = ClickCart;
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+		83CBBA201A601CBA00E9B192 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++20";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					/usr/lib/swift,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(SDKROOT)/usr/lib/swift\"",
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
+					"\"$(inherited)\"",
+				);
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = (
+					"$(OTHER_CFLAGS)",
+					"-DFOLLY_NO_CONFIG",
+					"-DFOLLY_MOBILE=1",
+					"-DFOLLY_USE_LIBCPP=1",
+					"-DFOLLY_CFG_NO_COROUTINES=1",
+				);
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		83CBBA211A601CBA00E9B192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++20";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					/usr/lib/swift,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(SDKROOT)/usr/lib/swift\"",
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
+					"\"$(inherited)\"",
+				);
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_CPLUSPLUSFLAGS = (
+					"$(OTHER_CFLAGS)",
+					"-DFOLLY_NO_CONFIG",
+					"-DFOLLY_MOBILE=1",
+					"-DFOLLY_USE_LIBCPP=1",
+					"-DFOLLY_CFG_NO_COROUTINES=1",
+				);
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "ClickCartTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00E356F61AD99517003FC87E /* Debug */,
+				00E356F71AD99517003FC87E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "ClickCart" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13B07F941A680F5B00A75B9A /* Debug */,
+				13B07F951A680F5B00A75B9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "ClickCart" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83CBBA201A601CBA00E9B192 /* Debug */,
+				83CBBA211A601CBA00E9B192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 83CBB9F71A601CBA00E9B192 /* Project object */;
+}
