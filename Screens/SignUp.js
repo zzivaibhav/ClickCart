@@ -25,7 +25,7 @@ const SignUp = ({navigation}) => {
   const [Email, setEmail] = useState();
   const [Password, setPassword] = useState();
 
-  const register = () => {
+  const register = async() => {
     const user = {
       name: Name,
       email: Email,
@@ -33,12 +33,13 @@ const SignUp = ({navigation}) => {
     };
     //send request in api
     axios
-      .post('http://10.0.2.2:8000/register', user)
+      .post('http://10.0.2.2:9000/register', user)
       .then(res => {
         console.log(res);
+        Alert.alert('Registration successfull', 'try loging in');
       })
       .catch(error => {
-        Alert.alert('Registration successful', 'Try logging in');
+        Alert.alert('Registration failed', 'retry');
         console.log(error);
       });
   };

@@ -41,15 +41,16 @@ const Login = ({navigation}) => {
       password: password,
     };
     axios
-      .post('http://10.0.2.2:8000/login', user)
-      .then(response => {
-        console.log(response);
-        const token = response.data.token;
+      .post('http://10.0.2.2:9000/loginToApplication', user)
+      .then(res => {
+        console.log(res);
+        const token = res.data.token;
         console.log(token);
         AsyncStorage.setItem('authToken', token);
 
         Alert.alert('Congratulation', 'You have successfully logged in');
         navigation.replace('main');
+       
       })
       .catch(e => {
         Alert.alert('Login Error', 'Invalid Email or Password');

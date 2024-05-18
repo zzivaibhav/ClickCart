@@ -2,7 +2,7 @@ import {StyleSheet, Text, View} from 'react-native';
 import React from 'react';
 import StackNavigator from './Navigation/StackNavigator';
 import {Provider} from 'react-redux';
-import store from './Store';
+import store from './Redux/Store';
 const App = () => {
   return (
     <>

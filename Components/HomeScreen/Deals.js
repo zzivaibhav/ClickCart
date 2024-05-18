@@ -1,173 +1,153 @@
-import React, {useEffect, useState} from 'react';
-import {StyleSheet, Text, View, Image, TouchableOpacity} from 'react-native';
-
+import React, { useEffect, useState } from 'react';
+import { StyleSheet, View, TouchableOpacity, ImageBackground, Text as RNText } from 'react-native';
 import axios from 'axios';
-
-import {
-  responsiveHeight,
-  responsiveWidth,
-  responsiveFontSize,
-} from 'react-native-responsive-dimensions';
-import ShimmerPlaceholder, {
-  createShimmerPlaceholder,
-} from 'react-native-shimmer-placeholder';
+import { responsiveHeight, responsiveWidth, responsiveFontSize } from 'react-native-responsive-dimensions';
+import ShimmerPlaceholder from 'react-native-shimmer-placeholder';
 import LinearGradient from 'react-native-linear-gradient';
-import {useSelector} from 'react-redux';
-const Deals = ({navigation}) => {
+import { Card, Title, Paragraph, Text } from 'react-native-paper';
+
+const Deals = ({ navigation }) => {
   const [deals, setDeals] = useState([]);
-  const h = responsiveHeight;
-  const ShimmerPlaceholder = createShimmerPlaceholder(LinearGradient);
   const [loading, setLoading] = useState(true);
-  const w = responsiveWidth;
-  const f = responsiveFontSize;
 
   useEffect(() => {
-    const fetchCategories = async () => {
+    const fetchDeals = async () => {
       try {
-        const deals = await axios.get(
-          // 'https://clickcart-t8dh.onrender.com/getDealsSquare',
-          'http://10.0.2.2:8000/getDealsSquare',
-        );
-
-        setDeals(deals.data);
-        if (deals) {
-          setLoading(false);
-        }
+        const response = await axios.get('http://10.0.2.2:9000/getDealsSquare');
+        setDeals(response.data);
+        setLoading(false);
       } catch (error) {
-        console.error('Error fetching categories:', error);
+        console.error('Error fetching deals:', error);
       }
     };
 
-    fetchCategories();
+    fetchDeals();
   }, []);
-  console.log(deals);
-  // const cart = useSelector(state => state.cart.cart);
-  // console.log(cart);
-  return (
-    <View>
-      {loading ? (
-        <View style={{alignItems: 'center'}}>
-          <Text
-            style={{
-              fontWeight: '500',
-              fontSize: f(3),
-              marginTop: h(1),
-              left: w(0.5),
-              fontFamily: 'Metropolis-ExtraBold',
-            }}>
-            Limited time deals only for you
-          </Text>
-          <View
-            style={{
-              flexDirection: 'row',
-              flexWrap: 'wrap',
-              gap: w(8),
-              justifyContent: 'center',
-              marginTop: h(2),
-            }}>
-            <ShimmerPlaceholder
-              style={{borderRadius: w(2.5), width: w(32), height: h(22)}}
-            />
-            <ShimmerPlaceholder
-              style={{borderRadius: w(2.5), width: w(32), height: h(22)}}
-            />
-            <ShimmerPlaceholder
-              style={{borderRadius: w(2.5), width: w(32), height: h(22)}}
-            />
-            <ShimmerPlaceholder
-              style={{borderRadius: w(2.5), width: w(32), height: h(22)}}
-            />
+
+  const renderDealItem = (item) => (
+    <TouchableOpacity
+      key={item._id}
+      onPress={() => navigation.navigate('product', { id: item._id })}
+      style={styles.cardContainer}
+    >
+      <ImageBackground
+        source={{ uri: item.imageOne }}
+        style={styles.backgroundImage}
+        imageStyle={styles.imageStyle}
+      >
+        <LinearGradient
+          colors={['rgba(0,0,0,0)', 'rgba(0,0,0,0.7)']}
+          style={styles.linearGradient}
+        >
+          <View style={styles.detailsContainer}>
+            <Title style={styles.salePrice}>{item.salePrice} ₹</Title>
+            <Paragraph style={styles.price}>
+              <RNText style={styles.originalPrice}>{item.price} ₹</RNText>
+            </Paragraph>
+            <Text style={styles.dealText}>Limited time deal!</Text>
           </View>
+        </LinearGradient>
+      </ImageBackground>
+    </TouchableOpacity>
+  );
+
+  return (
+    <View style={styles.container}>
+      <Text style={styles.title}>Limited Time Deals</Text>
+      {loading ? (
+        <View style={styles.loadingContainer}>
+          {[...Array(4)].map((_, index) => (
+            <ShimmerPlaceholder
+              key={index}
+              LinearGradient={LinearGradient}
+              style={styles.shimmerPlaceholder}
+            />
+          ))}
         </View>
       ) : (
-        <View>
-          <Text
-            style={{
-              fontWeight: '500',
-              fontSize: f(3),
-              marginTop: h(1),
-              left: w(0.5),
-              fontFamily: 'Metropolis-ExtraBold',
-            }}>
-            Limited time deals only for you
-          </Text>
-          <View
-            style={{
-              flexDirection: 'row',
-              flexWrap: 'wrap',
-              alignContent: 'center',
-              justifyContent: 'center',
-              gap: h(5),
-
-              marginTop: h(1),
-
-              width: w(95),
-              padding: 5,
-            }}>
-            {deals.map(item => (
-              <TouchableOpacity
-                onPress={() => {
-                  navigation.navigate('product', {
-                    id: item._id,
-                  });
-                }}>
-                <View
-                  key={item._id}
-                  style={{
-                    alignItems: 'center',
-                    borderColor: 'grey',
-                    borderWidth: w(0.5),
-                    padding: h(0.5),
-                    borderRadius: w(2.5),
-                  }}>
-                  <View>
-                    <Image
-                      src={item.imageOne}
-                      style={{
-                        height: h(15),
-                        width: w(29),
-                      }}
-                    />
-                  </View>
-                  <Text
-                    style={{
-                      textDecorationLine: 'line-through',
-                      fontSize: f(1.8),
-                    }}>
-                    {item.price} ₹
-                  </Text>
-                  <View
-                    style={{
-                      backgroundColor: '#F8f2f0',
-                      borderRadius: w(2),
-                      alignItems: 'center',
-                    }}>
-                    <Text
-                      style={{
-                        backgroundColor: 'red',
-                        borderRadius: w(1),
-
-                        color: 'white',
-                        marginTop: h(0.5),
-
-                        paddingLeft: w(1.0),
-                        fontWeight: 'bold',
-                        fontSize: f(2.2),
-                      }}>
-                      {item.salePrice} ₹
-                    </Text>
-                    <Text style={{color: 'red'}}>Limited time deal!</Text>
-                  </View>
-                </View>
-              </TouchableOpacity>
-            ))}
-          </View>
+        <View style={styles.dealsContainer}>
+          {deals.map(renderDealItem)}
         </View>
       )}
     </View>
   );
 };
 
-export default Deals;
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: 'white',
+    paddingVertical: responsiveHeight(2),
+    paddingHorizontal: responsiveWidth(4),
+  },
+  title: {
+    fontWeight: 'bold',
+    fontSize: responsiveFontSize(3),
+    marginBottom: responsiveHeight(2),
+    textAlign: 'center',
+    fontFamily: 'Roboto-Bold',
+    color: '#333',
+  },
+  loadingContainer: {
+    flexDirection: 'row',
+    flexWrap: 'wrap',
+    justifyContent: 'center',
+  },
+  shimmerPlaceholder: {
+    borderRadius: responsiveWidth(2.5),
+    width: responsiveWidth(42),
+    height: responsiveHeight(22),
+    marginVertical: responsiveHeight(2),
+    marginRight: responsiveWidth(2),
+  },
+  dealsContainer: {
+    flexDirection: 'row',
+    flexWrap: 'wrap',
+    justifyContent: 'space-between',
+  },
+  cardContainer: {
+    width: '48%', // Two cards per row with a small gap
+    marginBottom: responsiveHeight(2),
+  },
+  backgroundImage: {
+    width: '100%',
+    height: responsiveHeight(30), // Increase image height
+    borderRadius: responsiveWidth(2.5),
+    overflow: 'hidden',
+  },
+  imageStyle: {
+    resizeMode: 'cover',
+  },
+  linearGradient: {
+    flex: 1,
+    justifyContent: 'flex-end',
+    padding: responsiveWidth(4),
+  },
+  detailsContainer: {
+    backgroundColor: 'rgba(0, 0, 0, 0.5)',
+    borderRadius: responsiveWidth(2.5),
+    padding: responsiveWidth(3),
+  },
+  salePrice: {
+    color: 'white',
+    fontSize: responsiveFontSize(2.2),
+    fontWeight: 'bold',
+    marginBottom: responsiveHeight(1),
+    fontFamily: 'Roboto-Bold',
+  },
+  price: {
+    color: 'white',
+    fontSize: responsiveFontSize(1.8),
+    fontFamily: 'Roboto-Regular',
+  },
+  originalPrice: {
+    textDecorationLine: 'line-through', // Add strike-through effect
+  },
+  dealText: {
+    color: 'red',
+    fontSize: responsiveFontSize(1.6),
+    fontFamily: 'Roboto-Bold',
+  },
+});
 
-const styles = StyleSheet.create({});
+export default Deals;

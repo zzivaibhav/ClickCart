@@ -178,10 +178,6 @@
       "sha1": "ffa60fcd3e0d5f7dd995475364885474a6610999"
     },
     {
-      "path": "assets/fonts/FenomenSans-SemiBold.ttf",
-      "sha1": "46beab891f188ad985929fbc00d3f090f0d5ae01"
-    },
-    {
       "path": "assets/fonts/FenomenSans-SemiBoldItalic.ttf",
       "sha1": "f44f5ba46d7abee638ce3dc6683696660a661638"
     },
@@ -238,10 +234,6 @@
       "sha1": "634d424216abb9d0acdadd6ebdf22eebd33150ab"
     },
     {
-      "path": "assets/fonts/main.ttf",
-      "sha1": "6ce74ca84e5d6a919d48aa6ea267a56345c13033"
-    },
-    {
       "path": "assets/fonts/Metropolis-BlackItalic.ttf",
       "sha1": "756206a340028d7e450ab592b1621202b491df11"
     },
@@ -292,6 +284,10 @@
     {
       "path": "assets/fonts/Metropolis-Thin.ttf",
       "sha1": "1557226a3d899ee577a15774dbd712d18fb95fd9"
+    },
+    {
+      "path": "assets/fonts/main.ttf",
+      "sha1": "6ce74ca84e5d6a919d48aa6ea267a56345c13033"
     },
     {
       "path": "assets/fonts/nourd_bold.ttf",

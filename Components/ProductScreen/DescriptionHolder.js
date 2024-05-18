@@ -26,7 +26,7 @@ const DescriptionHolder = ({id}) => {
     const fetchProductScreen = async () => {
       try {
         const load = await axios.get(
-          `http://10.0.2.2:8000/navigateToProduct/${id}`,
+          `http://10.0.2.2:9000/navigateToProduct/${id}`,
         );
         setProductDetails(load.data);
         console.log(productDetails);

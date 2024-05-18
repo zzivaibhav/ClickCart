@@ -23,19 +23,15 @@ const Categories = ({navigation}) => {
   const h = responsiveHeight;
   const ShimmerPlaceholder = createShimmerPlaceholder(LinearGradient);
   const [loading, setLoading] = useState(true);
-
   const w = responsiveWidth;
   const f = responsiveFontSize;
   const [categories, setCategories] = useState([]);
   useEffect(() => {
     const fetchCategories = async () => {
       try {
-        const response = await axios.get(
-          // 'https://clickcart-t8dh.onrender.com/getCategory',
-          'http://10.0.2.2:8000/getCategory',
-        );
-
-        setCategories(response.data);
+        const response = await axios.get("http://10.0.2.2:9000/getCategory");
+ 
+         setCategories(response.data);
         if (categories) {
           setLoading(false);
         }
@@ -111,7 +107,7 @@ const Categories = ({navigation}) => {
                     fontSize: h(1.9),
                   }}>
                   {category.name}
-                </Text>
+                </Text> 
               </TouchableOpacity>
             </View>
           ))}

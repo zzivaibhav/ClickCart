@@ -72,7 +72,6 @@
 		A439D38C670D4464AAB5EF77 /* FenomenSans-SCNSemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 51E64E405D774A78AD1F4DC7 /* FenomenSans-SCNSemiBoldItalic.ttf */; };
 		B7B474E5B57E488A9E0F397B /* FenomenSans-SCNThin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8B24168EC7454961B6CDEA93 /* FenomenSans-SCNThin.ttf */; };
 		E9A9423195D343E4B116A75D /* FenomenSans-SCNThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E5FB2737F5B04237AF7AE4FF /* FenomenSans-SCNThinItalic.ttf */; };
-		23FC2C21B9CE4864953A1E52 /* FenomenSans-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DC15CE14AF144390ADD80187 /* FenomenSans-SemiBold.ttf */; };
 		6BFA547D497E42D8AEB635B2 /* FenomenSans-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A0E105401AD8464AB65291DC /* FenomenSans-SemiBoldItalic.ttf */; };
 		33E4273ADA5A434D9F9CB81C /* FenomenSans-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 606B752C360F44189592309F /* FenomenSans-Thin.ttf */; };
 		D39504AE4B244DF590A4DDCB /* FenomenSans-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7EBFAF97DF2944B69E315E57 /* FenomenSans-ThinItalic.ttf */; };
@@ -181,7 +180,6 @@
 		51E64E405D774A78AD1F4DC7 /* FenomenSans-SCNSemiBoldItalic.ttf */ = {isa = PBXFileReference; name = "FenomenSans-SCNSemiBoldItalic.ttf"; path = "../assets/fonts/FenomenSans-SCNSemiBoldItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 		8B24168EC7454961B6CDEA93 /* FenomenSans-SCNThin.ttf */ = {isa = PBXFileReference; name = "FenomenSans-SCNThin.ttf"; path = "../assets/fonts/FenomenSans-SCNThin.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 		E5FB2737F5B04237AF7AE4FF /* FenomenSans-SCNThinItalic.ttf */ = {isa = PBXFileReference; name = "FenomenSans-SCNThinItalic.ttf"; path = "../assets/fonts/FenomenSans-SCNThinItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		DC15CE14AF144390ADD80187 /* FenomenSans-SemiBold.ttf */ = {isa = PBXFileReference; name = "FenomenSans-SemiBold.ttf"; path = "../assets/fonts/FenomenSans-SemiBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 		A0E105401AD8464AB65291DC /* FenomenSans-SemiBoldItalic.ttf */ = {isa = PBXFileReference; name = "FenomenSans-SemiBoldItalic.ttf"; path = "../assets/fonts/FenomenSans-SemiBoldItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 		606B752C360F44189592309F /* FenomenSans-Thin.ttf */ = {isa = PBXFileReference; name = "FenomenSans-Thin.ttf"; path = "../assets/fonts/FenomenSans-Thin.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 		7EBFAF97DF2944B69E315E57 /* FenomenSans-ThinItalic.ttf */ = {isa = PBXFileReference; name = "FenomenSans-ThinItalic.ttf"; path = "../assets/fonts/FenomenSans-ThinItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
@@ -368,7 +366,6 @@
 				51E64E405D774A78AD1F4DC7 /* FenomenSans-SCNSemiBoldItalic.ttf */,
 				8B24168EC7454961B6CDEA93 /* FenomenSans-SCNThin.ttf */,
 				E5FB2737F5B04237AF7AE4FF /* FenomenSans-SCNThinItalic.ttf */,
-				DC15CE14AF144390ADD80187 /* FenomenSans-SemiBold.ttf */,
 				A0E105401AD8464AB65291DC /* FenomenSans-SemiBoldItalic.ttf */,
 				606B752C360F44189592309F /* FenomenSans-Thin.ttf */,
 				7EBFAF97DF2944B69E315E57 /* FenomenSans-ThinItalic.ttf */,
@@ -547,7 +544,6 @@
 				A439D38C670D4464AAB5EF77 /* FenomenSans-SCNSemiBoldItalic.ttf in Resources */,
 				B7B474E5B57E488A9E0F397B /* FenomenSans-SCNThin.ttf in Resources */,
 				E9A9423195D343E4B116A75D /* FenomenSans-SCNThinItalic.ttf in Resources */,
-				23FC2C21B9CE4864953A1E52 /* FenomenSans-SemiBold.ttf in Resources */,
 				6BFA547D497E42D8AEB635B2 /* FenomenSans-SemiBoldItalic.ttf in Resources */,
 				33E4273ADA5A434D9F9CB81C /* FenomenSans-Thin.ttf in Resources */,
 				D39504AE4B244DF590A4DDCB /* FenomenSans-ThinItalic.ttf in Resources */,

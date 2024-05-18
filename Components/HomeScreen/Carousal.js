@@ -23,8 +23,8 @@ const Carousal = () => {
     const fetchCategories = async () => {
       try {
         const carousal = await axios.get(
-          // 'https://clickcart-t8dh.onrender.com/getCarousal',
-          'http://10.0.2.2:8000/getCarousal',
+           
+         'http://10.0.2.2:9000/getCarousal',
         );
 
         setCarousal(carousal.data);
