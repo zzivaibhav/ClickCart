@@ -1,7 +1,7 @@
+import React, { useState } from 'react';
 import {
   Alert,
   Image,
-  Keyboard,
   KeyboardAvoidingView,
   StyleSheet,
   Text,
@@ -9,128 +9,152 @@ import {
   TouchableOpacity,
   View,
 } from 'react-native';
+import LinearGradient from 'react-native-linear-gradient';
 import {
   responsiveHeight,
   responsiveWidth,
   responsiveFontSize,
 } from 'react-native-responsive-dimensions';
-import React, {useState} from 'react';
 import axios from 'axios';
 
-const SignUp = ({navigation}) => {
+const SignUp = ({ navigation }) => {
   const h = responsiveHeight;
   const w = responsiveWidth;
   const f = responsiveFontSize;
-  const [Name, setName] = useState();
-  const [Email, setEmail] = useState();
-  const [Password, setPassword] = useState();
+  const [Name, setName] = useState('');
+  const [Email, setEmail] = useState('');
+  const [Password, setPassword] = useState('');
 
-  const register = async() => {
+  const register = async () => {
     const user = {
       name: Name,
       email: Email,
       password: Password,
     };
-    //send request in api
+    // Send request in API
     axios
       .post('http://10.0.2.2:9000/register', user)
-      .then(res => {
+      .then((res) => {
         console.log(res);
-        Alert.alert('Registration successfull', 'try loging in');
+        Alert.alert('Registration successful', 'Try logging in');
       })
-      .catch(error => {
-        Alert.alert('Registration failed', 'retry');
+      .catch((error) => {
+        Alert.alert('Registration failed', 'Retry');
         console.log(error);
       });
   };
+
   return (
-    <View style={{flex: 1, justifyContent: 'space-between'}}>
-      <View style={{flex: 3}}>
-        <Image
-          source={require('../assets/Logo.png')}
-          style={{height: h(15), width: w(100)}}
-        />
-      </View>
-      <View
-        style={{
-          flex: 3,
-          justifyContent: 'space-evenly',
-          alignItems: 'center',
-        }}>
-        <TextInput
-          placeholder="Enter Your User Name"
-          onChangeText={val => setName(val)}
-          style={{
-            backgroundColor: '#D3B1C2',
-            width: w(60),
-            fontSize: f(2),
-            borderRadius: w(3.5),
-            fontWeight: '500',
-            textAlign: 'center',
-          }}
-        />
-
-        <TextInput
-          placeholder="Enter Your Email"
-          onChangeText={val => setEmail(val)}
-          keyboardType="email-address"
-          style={{
-            textAlign: 'center',
-            backgroundColor: '#D3B1C2',
-            width: w(60),
-            fontWeight: '500',
-            fontSize: f(2),
-            borderRadius: w(3.5),
-            alignContent: 'center',
-          }}
-        />
-        <TextInput
-          placeholder="Enter Your Password"
-          onChangeText={val => setPassword(val)}
-          secureTextEntry={true}
-          style={{
-            textAlign: 'center',
-            backgroundColor: '#D3B1C2',
-            width: w(60),
-            fontSize: f(2),
-            fontWeight: '500',
-            borderRadius: w(3.5),
-          }}
-        />
-      </View>
-
-      <View style={{alignItems: 'center', flex: 3, justifyContent: 'flex-end'}}>
-        <TouchableOpacity
-          onPress={register}
-          style={{
-            backgroundColor: '#613659',
-            width: w(32),
-            height: h(5.5),
-            justifyContent: 'center',
-            alignItems: 'center',
-            bottom: h(15),
-            borderRadius: w(5),
-            elevation: 5,
-            position: 'absolute',
-          }}>
-          <Text style={{color: 'white', fontSize: f(2), fontWeight: '600'}}>
-            Sign Up
-          </Text>
+    <KeyboardAvoidingView style={styles.container} behavior="padding">
+      <LinearGradient
+        colors={['#FF6B6B', '#FF8E53']}
+        style={styles.gradient}
+      >
+        <View style={styles.logoContainer}>
+          <Image
+            source={require('../assets/Logo.png')}
+            style={styles.logo}
+          />
+        </View>
+        <View style={styles.inputContainer}>
+          <TextInput
+            placeholder="Enter Your User Name"
+            onChangeText={(val) => setName(val)}
+            style={styles.input}
+            placeholderTextColor="#fff"
+          />
+          <TextInput
+            placeholder="Enter Your Email"
+            onChangeText={(val) => setEmail(val)}
+            keyboardType="email-address"
+            style={styles.input}
+            placeholderTextColor="#fff"
+          />
+          <TextInput
+            placeholder="Enter Your Password"
+            onChangeText={(val) => setPassword(val)}
+            secureTextEntry
+            style={styles.input}
+            placeholderTextColor="#fff"
+          />
+        </View>
+        <TouchableOpacity onPress={register} style={styles.signUpButton}>
+          <Text style={styles.signUpButtonText}>Sign Up</Text>
         </TouchableOpacity>
-        <View style={{flexDirection: 'row', marginBottom: h(2)}}>
-          <Text style={{color: 'black', fontSize: f(2)}}>Existing User?</Text>
+        <View style={styles.loginContainer}>
+          <Text style={styles.loginText}>Existing User?</Text>
           <TouchableOpacity
             onPress={() => {
               navigation.navigate('login');
             }}>
-            <Text style={{color: 'red', fontSize: f(2)}}> Login</Text>
+            <Text style={styles.loginLink}> Login</Text>
           </TouchableOpacity>
         </View>
-      </View>
-    </View>
+      </LinearGradient>
+    </KeyboardAvoidingView>
   );
 };
 
 export default SignUp;
 
-const styles = StyleSheet.create({});
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    justifyContent: 'center',
+  },
+  gradient: {
+    flex: 1,
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+  logoContainer: {
+    marginBottom: responsiveHeight(5),
+  },
+  logo: {
+    height: responsiveHeight(15),
+    width: responsiveWidth(50),
+    resizeMode: 'contain',
+  },
+  inputContainer: {
+    width: '80%',
+    justifyContent: 'center',
+  },
+  input: {
+    backgroundColor: 'rgba(255, 255, 255, 0.3)',
+    width: '100%',
+    fontSize: responsiveFontSize(2),
+    borderRadius: 25,
+    padding: 15,
+    marginVertical: 10,
+    color: '#fff',
+  },
+  signUpButton: {
+    backgroundColor: '#fff',
+    width: '60%',
+    height: responsiveHeight(6),
+    justifyContent: 'center',
+    alignItems: 'center',
+    borderRadius: 25,
+    marginVertical: responsiveHeight(5),
+    elevation: 5,
+  },
+  signUpButtonText: {
+    color: '#FF6B6B',
+    fontSize: responsiveFontSize(2.2),
+    fontWeight: 'bold',
+  },
+  loginContainer: {
+    flexDirection: 'row',
+    alignItems: 'center',
+  },
+  loginText: {
+    color: '#fff',
+    fontSize: responsiveFontSize(2),
+  },
+  loginLink: {
+    color: '#fff',
+    fontSize: responsiveFontSize(2),
+    fontWeight: 'bold',
+    marginLeft: 5,
+  },
+});
